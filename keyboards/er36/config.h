@@ -39,6 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN B4
 #ifdef RGB_DI_PIN
     #define DRIVER_LED_TOTAL 36
+	#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 100
 #endif
 
 #define DEBOUNCE 5
